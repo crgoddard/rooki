@@ -9,7 +9,7 @@ __author__ = "Carsten Ehbrecht"
 __contact__ = "ehbrecht@dkrz.de"
 __copyright__ = "Copyright 2023 United Kingdom Research and Innovation"
 __license__ = "BSD - see LICENSE file in top-level package directory"
-__version__ = "0.6.3"
+__version__ = "0.6.5"
 
 # One strategy for storing the overall version is to put it in the top-level
 # package's __init__ but Nb. __init__.py files are not needed to declare
@@ -48,7 +48,6 @@ setup(
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Topic :: Security",
@@ -60,7 +59,7 @@ setup(
     description="A client for roocs climate data operations service.",
     license=__license__,
     # This qualifier can be used to selectively exclude Python versions
-    python_requires=">=3.9.0",
+    python_requires=">=3.10.0",
     install_requires=[
         requirements,
     ],
